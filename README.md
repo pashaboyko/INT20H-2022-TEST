@@ -1,8 +1,7 @@
-# INT20H-2022-TEST
+![Magnus Sysanus](coollogo_com-22683573.png)
 # Magnus Sysanus
-INT20H-2022 TEST TASK
-
-Driver's Churn
+## INT20H-2022 TEST TASK
+### Driver's Churn
 
 Необхідно побудувати модель, яка буде прогнозувати сегмент churn-водіїв, тобто водіїв, які перестануть користуватися сервісом.
 
@@ -11,10 +10,8 @@ Driver's Churn
 
 Бажаємо творчого настрою та успіхів у вирішенні завдання!
 
-![Magnus Sysanus](coollogo_com-22683573.png)
 
-
-## Лучше всего показала модель с использованием алгоритма LGBMClassifier -
+### Лучше всего показала модель с использованием алгоритма LGBMClassifier -
 LGBMClassifier(is_unbalance=True, objective=‘binary’, boosting_type=‘dart’, lambda_l1=1, lambda_l2=1, learning_rate=0.1, min_data_in_leaf=100, num_leaves=27, reg_alpha=0.1)
 
-## Результат AUC = 0.88675
+### Результат AUC = 0.88675
